@@ -21,7 +21,10 @@
     "semi": true,
     "singleQuote": true
   },
-  "lint-staged": {},
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write",
+    "*.{js,jsx,ts,tsx}": "eslint --fix"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged && yarn test",
