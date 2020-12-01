@@ -1,4 +1,4 @@
-# template-typescript-barebones.
+# template-typescript-barebones
 
 A barebones file structure for project in TypeScript.
 
